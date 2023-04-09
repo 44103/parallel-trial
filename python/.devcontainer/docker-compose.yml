@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  python:
+    # image: python
+    build: .
+    command: sleep infinity
+    volumes:
+      - ../:/workdir
+      - ~/.gitconfig:/root/.gitconfig
+    environment:
+      SHELL: "/bin/zsh"

@@ -1,0 +1,21 @@
+{
+    "name": "python3.9",
+    "dockerComposeFile": "docker-compose.yml",
+	"settings": {
+		"terminal.integrated.defaultProfile.linux": "zsh"
+	},
+    "extensions": [
+		"formulahendry.terminal",
+		"james-yu.latex-workshop",
+		"nickfode.latex-formatter",
+		"fabiospampinato.vscode-todo-plus",
+		"shardulm94.trailing-spaces",
+		"patbenatar.advanced-new-file",
+		"sleistner.vscode-fileutils",
+		"mhutchie.git-graph",
+		"ms-python.python"
+	],
+    "service": "python",
+    "workspaceFolder": "/workdir",
+    "shutdownAction": "stopCompose"
+}
